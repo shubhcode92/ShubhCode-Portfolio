@@ -26,14 +26,13 @@ const LandingPage: React.FC<LandingPageProps> = ({ color, loc }) => {
             </div>
           </div>
           <div>
-            <div className='my-5 text-[#2D2E32] text-center text-[40px] font-bold font-sans leading-tight flex items-center justify-center flex-wrap sm:flex-nowrap'>
-              <h1> Full-Stack Software Developer </h1>
-              {/* <Image src="/wavingHand.png" alt="waving hand" width={32} height={32} /> */}
+            <div className='my-5 text-[#2D2E32] text-center text-[30px] font-bold font-sans leading-tight flex items-center justify-center flex-wrap sm:flex-nowrap'>
+              <h1> Full-Stack Software Developer 👋</h1>
             </div>
             <div>
               <p className='my-5 text-center text-gray-600 text-lg'>Hi, I'm Shubham Sahu. A passionate Full-Stack Software Developer based in Bhopal, India.📍</p>
             </div>
-            <div className='my-5'>
+            <div className='mt-8'>
               <span className="flex items-center justify-center space-x-4">
                 <Link href={"https://www.linkedin.com/in/shubhcode92/"} passHref><LiaLinkedin size={36} className='hover:text-blue-500 hover:transition hover:delay-120' /></Link>
                 <Link href={"https://github.com/shubhcode92"} passHref><LuGithub size={30} className='hover:text-blue-500 hover:transition hover:delay-120' /></Link>
@@ -47,7 +46,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ color, loc }) => {
           <div className='border-gray-500 border-[1px] w-24 mt-2'></div>
         </div>
         <div className="flex mt-12 mb-28 items-center justify-center">
-          <div className="grid grid-cols-5 gap-x-10 gap-y-8 sm:flex sm:flex-wrap sm:justify-center">
+          <div className="grid grid-cols-5 gap-x-5 gap-y-5 sm:flex sm:flex-wrap sm:justify-center">
             {[
               "/html-icon.svg",
               "/css-icon.svg",
@@ -60,7 +59,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ color, loc }) => {
               "/node-js-icon.svg",
               "/java-icon.svg",
             ].map((src, index) => (
-              <div key={index} className="h-12 w-12 sm:w-36 relative cursor-pointer transform transition-transform duration-500 hover:-translate-y-3">
+              <div key={index} className="h-10 w-10 sm:w-36 relative cursor-pointer transform transition-transform duration-500 hover:-translate-y-3">
                 <Image src={src} alt="shubhcode92" layout="fill" />
               </div>
             ))}

@@ -12,10 +12,10 @@ interface ContactProps {
 const Contact: React.FC<ContactProps> = ({ color, loc }) => {
   return (
     <>
-      <div id={loc} className={`bg-[#FFFFFF]`}>
-        <div className='flex flex-col justify-start items-center py-20'>
+      <div id={loc} className={` bg-[#FFFFFF] text-center`}>
+        <div className='mx-10 flex flex-col justify-start items-center py-20'>
           <div className='text-[#147EFB] font-bold text-lg'>CONTACT</div>
-          <div className='my-3 font-extrabold text-2xl'>Don't be shy! Hit me up!👇</div>
+          <div className='my-3 font-extrabold text-2xl'>Don't be shy! Hit me up! 👇</div>
           <div className='my-6 flex flex-col justify-start items-center'>
             <GrLocation className='text-[#147EFB]' size={28}/>
             <h3 className='my-1 font-bold text-lg'>Location</h3>
