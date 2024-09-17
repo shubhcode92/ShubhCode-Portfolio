@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <>
         <div className='bg-black text-white text-base font-bold'>
-            <div className='mx-10 justify-center text-center py-14'>
-                <h2>Copyright © {year} ShubhCode. All rights are reserved.</h2>
+            <div className='lg:flex lg:justify-between lg:items-center justify-center text-center lg:justify-start lg:text-start py-14 mx-10 lg:py-12 lg:px-60 lg:flex lg:space-x-10'>
+                <h2 className='lg:flex lg:justify-center lg:items-center'>Copyright © {year} ShubhCode. All rights are reserved.</h2>
                 <div className='my-5'>
                     <span className="flex items-center justify-center space-x-4">
                         <Link href={"https://www.linkedin.com/in/shubhcode92/"} passHref><LiaLinkedin size={36} className='hover:text-blue-500 hover:transition hover:delay-120' /></Link>

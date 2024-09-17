@@ -29,14 +29,14 @@ const Header = () => {
                         <Link href="#Contact" passHref><li className="cursor-pointer hover:text-blue-500 hover:transition hover:delay-120" onClick={handleSideBar}>Contact</li></Link>
                     </ul>
                 </div>
-                <div className="flex text-black place-content-between py-[25px] pl-[45px] pr-[45px]">
+                <div className="flex text-black place-content-between py-[25px] px-[45px] lg:px-[55px]">
                     <Link href={"#Home"}><div className="text-[#2D2E32] font-bold text-xl">ShubhCode</div></Link>
-                    <div className="hidden lg:flex text-[#2D2E32] space-x-6">
-                        <ul className="flex">
-                            <Link href="#Home" passHref><li className="cursor-pointer">Home</li></Link>
-                            <Link href="#About" passHref><li className="cursor-pointer">About</li></Link>
-                            <Link href="#Projects" passHref><li className="cursor-pointer">Projects</li></Link>
-                            <Link href="#Contact" passHref><li className="cursor-pointer">Contact</li></Link>
+                    <div className="hidden text-[#2D2E32] space-x-6 lg:flex ">
+                        <ul className="flex lg:space-x-6 lg:text-lg lg:font-semibold">
+                            <Link href="#Home" passHref><li className="cursor-pointer hover:text-blue-500 hover:transition hover:delay-120">Home</li></Link>
+                            <Link href="#About" passHref><li className="cursor-pointer hover:text-blue-500 hover:transition hover:delay-120">About</li></Link>
+                            <Link href="#Projects" passHref><li className="cursor-pointer hover:text-blue-500 hover:transition hover:delay-120">Projects</li></Link>
+                            <Link href="#Contact" passHref><li className="cursor-pointer hover:text-blue-500 hover:transition hover:delay-120">Contact</li></Link>
                         </ul>
                     </div>
                     <div className="lg:hidden cursor-pointer hover:text-blue-500 hover:transition hover:delay-120" onClick={handleSideBar}>

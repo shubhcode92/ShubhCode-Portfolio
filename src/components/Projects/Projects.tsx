@@ -9,7 +9,7 @@ const Projects: React.FC<ProjectsProps> = ({ color, loc }) => {
   return (
     <>
       <div id={loc} className={` bg-[#F9F9F9]`}>
-        <div className='mx-10 text-[20px] font-bold text-center py-20'>New Projects coming soon..🤠</div>
+        <div className='text-[20px] font-bold text-center py-20 mx-10 lg:px-60 lg:py-28 lg:text-[26px]'>New Projects coming soon..🤠</div>
       </div>
     </>
   );
